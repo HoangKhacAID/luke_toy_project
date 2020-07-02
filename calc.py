@@ -25,6 +25,12 @@ def add(operand1, operand2):
 def minus(operand1, operand2):
     return operand1 - operand2
 
+# adding the binary-wise AND
+def and(operand1, operand2):
+	if operand1 == True and operand2 == True:
+		return true
+	else
+		return false
 
 # this will run if calc.py is ran from the terminal
 if __name__ == "__main__":
