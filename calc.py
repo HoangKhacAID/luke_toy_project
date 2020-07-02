@@ -37,7 +37,7 @@ if __name__ == "__main__":
     except ValueError:
         # something went wrong trying to parse the user input
         # Inform the user how to use
-        print("Usage: ./calc.py 10 + 2")
+        print("Usage2: ./calc.py 10 + 2")
 
         # return with error status 1
         # since something went wrong
