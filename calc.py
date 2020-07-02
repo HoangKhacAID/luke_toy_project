@@ -25,6 +25,9 @@ def add(operand1, operand2):
 def minus(operand1, operand2):
     return operand1 - operand2
 
+# multiply op1 and op2
+def multiply(operand1, operand2):
+    return operand1 * operand2
 
 # this will run if calc.py is ran from the terminal
 if __name__ == "__main__":
@@ -48,6 +51,8 @@ if __name__ == "__main__":
     if operator == '+':
         result = add(operand1, operand2)
     elif operator == '-':
+        result = minus(operand1, operand2)
+    elif operator == '*':
         result = minus(operand1, operand2)
 
     # see if we got an answer
