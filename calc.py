@@ -23,7 +23,7 @@ def add(operand1, operand2):
 
 # Subtract operand2 from operand1
 def minus(operand1, operand2):
-    pass
+    return operand1 - operand2
 
 
 # this will run if calc.py is ran from the terminal
