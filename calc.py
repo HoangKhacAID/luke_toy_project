@@ -15,6 +15,10 @@ from __future__ import division
 # module level imports here
 import sys
 
+# Add operand1 to operand2
+def reminder(operand1, operand2):
+    return operand1 % operand2
+
 
 # Add operand1 to operand2
 def add(operand1, operand2):
@@ -49,6 +53,8 @@ if __name__ == "__main__":
         result = add(operand1, operand2)
     elif operator == '-':
         result = minus(operand1, operand2)
+    elif operator == '%':
+        result = reminder(operand1, operand2)
 
     # see if we got an answer
     if result is None:
