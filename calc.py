@@ -20,7 +20,7 @@ import sys
 def add(operand1, operand2):
     pass
 
-
+#where to add bw operator?
 # Subtract operand2 from operand1
 def minus(operand1, operand2):
     return operand1 - operand2
