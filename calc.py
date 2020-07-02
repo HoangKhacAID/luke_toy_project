@@ -25,7 +25,7 @@ def add(operand1, operand2):
 def minus(operand1, operand2):
     return operand1 - operand2
 
-# multiply op1 and op2
+# multiply op1 and op2.
 def multiply(operand1, operand2):
     return operand1 * operand2
 
