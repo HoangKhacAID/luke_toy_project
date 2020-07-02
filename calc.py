@@ -25,9 +25,9 @@ def add(operand1, operand2):
 def minus(operand1, operand2):
     return operand1 - operand2
 
-# Mutiple operaand 1 with operand 2
-def mutiple(operand1, operand2):
-    return operand1 * operand2    
+# Mutiple operand 1 with operand 2
+def devide(operand1, operand2):
+    return operand1 / operand2    
 
 
 # this will run if calc.py is ran from the terminal
@@ -53,8 +53,8 @@ if __name__ == "__main__":
         result = add(operand1, operand2)
     elif operator == '-':
         result = minus(operand1, operand2)
-    elif operator == '*':
-        result = mutiple(operand1, operand2)    
+    elif operator == '/':
+        result = devide(operand1, operand2)        
 
     # see if we got an answer
     if result is None:
